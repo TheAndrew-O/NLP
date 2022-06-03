@@ -2,10 +2,10 @@
 @encoding: UTF_8
 @smoothing: add-one smoothing is used (laplace smoothing).
 @commands:
-        python3 readl.py authorlist.txt
+        python3 ngram_next_word.py <INPUTFILES_LIST>.txt
                         or
-        python3 readl.py authorlist.txt -test <file>.txt
-
+        python3 ngram_next_word.py <INPUTFILES_LIST>.txt -test <file>.txt
+                        to test language model against provided file
 """
 import re
 import sys
